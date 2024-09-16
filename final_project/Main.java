@@ -8,15 +8,7 @@ class Sinhvien
     private String Nganh;
     private int Diem;
     private int Kyhoc;
-    
-    public Sinhvien(int ID,String Name, String Nganh, int Diem, int Kyhoc)
-    {
-        this.ID=ID;
-        this.Name=Name;
-        this.Nganh=Nganh;
-        this.Diem=Diem;
-        this.Kyhoc=Kyhoc;
-    }
+
     /*Phuong thuc get */
     public int getID()
     {
@@ -75,9 +67,7 @@ class danhsachsinhvien
     
     public danhsachsinhvien()
     {
-        this.danhsach=new ArrayList<Sinhvien>();
     }
-    
     public danhsachsinhvien(ArrayList<Sinhvien> danhsach)
     {
         this.danhsach=danhsach;
@@ -94,12 +84,16 @@ public class Main
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        danhsachsinhvien dssv = new danhsachsinhvien();
+        danhsachsinhvien dssv = new danhsachsinhvien(); 
         for(int i=0;i<10;i++)
-        {
+        {   
+            System.out.println("Nhap thong tin sinh vien thu" + (i+1));
+            if (i>=1){                                    
+            String b=sc.nextLine();}
             System.out.println("Nhap ma sinh vien:"); String ID =sc.nextLine();
-            System.out.println("Nhap ten:"); String Name =sc.nextLine();
+            System.out.println("Nhap ten:"); String Name =sc.nextLine();                                 
             System.out.println("Nhap Diem:"); int Diem =sc.nextInt();
+                                                String a=sc.nextLine();
             System.out.println("Nhap Nganh:"); String Nganh =sc.nextLine();
             System.out.println("Nhap Ky hoc:"); int Kyhoc =sc.nextInt();
 
