@@ -3,7 +3,9 @@
 
 Sơ đồ chức năng (Structural Diagram)
 
-https://drive.google.com/file/d/1MeeUUq4HuDnWCWIQ15OLwwZ2QSL9VPAR/view?usp=sharing
+
+![image](https://github.com/user-attachments/assets/03199bc3-ae69-4ec5-87ff-2dd22d9a52ba)
+
 
 Lưu đồ thuật toán (Behavioural Diagram)
 
