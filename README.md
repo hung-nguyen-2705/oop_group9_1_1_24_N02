@@ -12,10 +12,16 @@
 
 
 # Lưu đồ thuật toán (Behavioural Diagram)
+
 Chức năng thêm thông tinh sinh viên 
+
 ![themsinhvien](https://github.com/user-attachments/assets/d2bd1dd7-3d50-48fa-bfa4-9e0be1156c1e)
+
 Chức năng cập nhật sinh viên
+
 ![capnhat](https://github.com/user-attachments/assets/f77b09f5-0c52-4ff1-9976-7889497cde74)
+
 Chức năg xóa sinh viên 
+
 ![image](https://github.com/user-attachments/assets/e410821b-ac63-4aab-bade-ad1ed0cc50c6)
 
