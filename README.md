@@ -9,8 +9,11 @@ Sơ đồ chức năng (Structural Diagram)
 
 Lưu đồ thuật toán (Behavioural Diagram)
 
+![capnhat](https://github.com/user-attachments/assets/f77b09f5-0c52-4ff1-9976-7889497cde74)
 
 
+![themsinhvien](https://github.com/user-attachments/assets/d2bd1dd7-3d50-48fa-bfa4-9e0be1156c1e)
 
 
-https://drive.google.com/file/d/1zW_StR9coMLLfCetsSTD_3Bi8wC_7qAH/view?usp=drivesdk
+![image](https://github.com/user-attachments/assets/e410821b-ac63-4aab-bade-ad1ed0cc50c6)
+
