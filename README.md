@@ -25,3 +25,7 @@ Chức năg xóa sinh viên
 
 ![image](https://github.com/user-attachments/assets/e410821b-ac63-4aab-bade-ad1ed0cc50c6)
 
+# Màn hình đầu tiên:
+
+<img width="202" alt="image" src="https://github.com/user-attachments/assets/72d2a03c-96dc-484b-9cfb-a5b3e324b5c3">
+
