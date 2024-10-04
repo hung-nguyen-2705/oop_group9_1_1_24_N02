@@ -28,3 +28,7 @@ Chức năg xóa sinh viên
 # Màn hình đầu tiên:
 
 <img width="202" alt="image" src="https://github.com/user-attachments/assets/72d2a03c-96dc-484b-9cfb-a5b3e324b5c3">
+
+# màn hình nhập vào và dữ liệu vào file:
+<img width="779" alt="image" src="https://github.com/user-attachments/assets/9cc403ad-e4ac-48b0-b485-9082224eb2eb">
+
