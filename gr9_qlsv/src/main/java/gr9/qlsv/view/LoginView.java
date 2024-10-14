@@ -3,12 +3,9 @@ package gr9.qlsv.view;
 import gr9.qlsv.controller.LoginController;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.BorderLayout;
-import java.awt.Canvas;
-import java.awt.Panel;
-import java.awt.Color;
 
 public class LoginView extends JFrame {
     private LoginController loginController = new LoginController();
@@ -45,7 +42,7 @@ public class LoginView extends JFrame {
                 String password = new String(passwordText.getPassword());
                 if (loginController.authenticate(username, password)) {
                     new StudentView();
-                    dispose(); // đóng cửa sổ đăng nhập
+                    dispose(); // Đóng cửa sổ đăng nhập
                 } else {
                     JOptionPane.showMessageDialog(null, "Sai tài khoản hoặc mật khẩu");
                 }

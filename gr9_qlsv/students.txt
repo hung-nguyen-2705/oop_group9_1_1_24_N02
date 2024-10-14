@@ -1,0 +1,5 @@
+4,nguyen van c,c@gmail.com,4.0,Hà Nội
+2,nguyen van b,b@gmail.com,3.5,Hà Nội
+1,nguyen van a,a@gmail.com,3.0,Hà Nội
+3,bui van d,d@gmail.com,2.0,Hải Phòng
+5,le thi e,e@gmail.com,3.2,Thanh Hóa

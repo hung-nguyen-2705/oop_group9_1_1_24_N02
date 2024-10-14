@@ -1,4 +1,3 @@
-// src/main/java/gr9/qlsv/utils/FileUtils.java
 package gr9.qlsv.utils;
 
 import gr9.qlsv.entity.Student;

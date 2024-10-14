@@ -1,19 +1,19 @@
-
 package gr9.qlsv.controller;
 
-import gr9.qlsv.dao.StudentDao;
+import gr9.qlsv.dao.UserDao;
 import gr9.qlsv.entity.Student;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class StudentController {
-    private StudentDao studentDao = new StudentDao();
+    private UserDao userDao = new UserDao();
 
     public List<Student> getAllStudents() {
-        return studentDao.getAllStudents();
+        return userDao.readStudents();
     }
 
     public void saveStudents(List<Student> students) {
-        studentDao.saveStudents(students);
+        userDao.writeStudents(students);
     }
 }

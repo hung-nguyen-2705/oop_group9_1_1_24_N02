@@ -1,4 +1,3 @@
-// src/main/java/gr9/qlsv/entity/Student.java
 package gr9.qlsv.entity;
 
 public class Student {
@@ -34,10 +33,5 @@ public class Student {
 
     public String getAddress() {
         return address;
-    }
-
-    @Override
-    public String toString() {
-        return id + "," + name + "," + email + "," + gpa + "," + address;
     }
 }
