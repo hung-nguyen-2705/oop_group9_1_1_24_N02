@@ -6,26 +6,30 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.Window.Type;
+import com.jgoodies.forms.factories.DefaultComponentFactory;
 
 public class LoginView extends JFrame {
     private LoginController loginController = new LoginController();
 
     public LoginView() {
+    	setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\gr9_qlsv\\acess\\Icon-CTy-Tap-doan-Phuong-Hoan.png"));
         setTitle("Đăng nhập");
-        setSize(444, 320);
+        setSize(387, 318);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        JLayeredPane panel = new JLayeredPane();
+        JPanel panel = new JPanel();
+        panel.setBackground(SystemColor.inactiveCaptionBorder);
         JLabel userLabel = new JLabel("Tài khoản:");
-        userLabel.setBounds(37, 76, 82, 20);
+        userLabel.setBounds(10, 54, 75, 20);
         JTextField userText = new JTextField(20);
-        userText.setBounds(120, 76, 275, 20);
+        userText.setBounds(77, 54, 275, 20);
         JLabel passwordLabel = new JLabel("Mật khẩu:");
-        passwordLabel.setBounds(37, 136, 79, 17);
+        passwordLabel.setBounds(10, 114, 55, 17);
         JPasswordField passwordText = new JPasswordField(20);
-        passwordText.setBounds(120, 134, 275, 20);
+        passwordText.setBounds(77, 112, 275, 20);
         JButton loginButton = new JButton("Đăng nhập");
-        loginButton.setBounds(163, 183, 119, 23);
+        loginButton.setBounds(125, 158, 119, 23);
         panel.setLayout(null);
 
         panel.add(userLabel);
@@ -34,6 +38,18 @@ public class LoginView extends JFrame {
         panel.add(passwordText);
         panel.add(loginButton);
         getContentPane().add(panel, BorderLayout.CENTER);
+        
+        JLabel lblQunLSinh = new JLabel("QUẢN LÝ SINH VIÊN");
+        lblQunLSinh.setHorizontalAlignment(SwingConstants.CENTER);
+        lblQunLSinh.setFont(new Font("Tahoma", Font.BOLD, 11));
+        lblQunLSinh.setBounds(112, 23, 132, 20);
+        panel.add(lblQunLSinh);
+        
+        JLabel lblNewJgoodiesLabel = DefaultComponentFactory.getInstance().createLabel("");
+        lblNewJgoodiesLabel.setIcon(new ImageIcon("D:\\gr9_qlsv\\acess\\download (2).jpg"));
+        lblNewJgoodiesLabel.setHorizontalAlignment(SwingConstants.CENTER);
+        lblNewJgoodiesLabel.setBounds(0, 179, 371, 125);
+        panel.add(lblNewJgoodiesLabel);
 
         loginButton.addActionListener(new ActionListener() {
             @Override

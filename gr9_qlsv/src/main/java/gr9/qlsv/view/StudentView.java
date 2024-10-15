@@ -28,6 +28,7 @@ public class StudentView extends JFrame {
     private JList<String> studentList = new JList<>(listModel);
 
     public StudentView() {
+    	setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\gr9_qlsv\\acess\\Icon-CTy-Tap-doan-Phuong-Hoan.png"));
         setTitle("Quản lý sinh viên");
         setSize(598, 501);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
