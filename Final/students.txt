@@ -1,0 +1,5 @@
+1,bang,a@gmail.com,4.0,haiphong
+2,duc,b@gmail.com,4.0,thanhhoa
+3,hoang,c@gmail.com,4.0,thanhhoa
+4,thuan,d@gmail.com,4.0,thanhhoa
+5,thuanhoang,e@gmail.com,4.0,thanhhoa
