@@ -11,10 +11,6 @@ public class MonhocController {
     private MonhocDao monhocDao = new MonhocDao();
 
     public List<Monhoc> getAllMonhoc(String user) {
-        return monhocDao.readStudents(user);
-    }
-
-    public void saveMonhoc(List<Monhoc> monhoc) {
-        monhocDao.writeStudents(monhoc);
+        return monhocDao.readMonhocs(user);
     }
 }
