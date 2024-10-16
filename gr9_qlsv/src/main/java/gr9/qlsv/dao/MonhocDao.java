@@ -13,7 +13,7 @@ public class MonhocDao {
     // Thêm tệp chứa thông tin người dùng quản trị viên
     private final String ADMIN_FILE_NAME = "C:\\Users\\bangd\\Desktop\\oop_group9_1_1_24_N02\\gr9_qlsv\\src\\main\\java\\admin.txt";
 
-    public List<Monhoc> readStudents(String user) {
+    public List<Monhoc> readMonhocs(String user) {
         List<Monhoc> subjects = new ArrayList<>();
   
         String userFileName = FILE_NAME + user + ".txt";
@@ -47,16 +47,4 @@ public class MonhocDao {
             e.printStackTrace();
         }
     }
-
-    // Phương thức lấy thông tin người dùng quản trị viên
-    public String getAdminUser() {
-        String adminInfo = null;
-        try (BufferedReader br = new BufferedReader(new FileReader(ADMIN_FILE_NAME))) {
-            adminInfo = br.readLine(); // Đọc thông tin người dùng quản trị viên từ tệp
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return adminInfo; // Trả về thông tin người dùng quản trị viên
-    }
-    
 }
