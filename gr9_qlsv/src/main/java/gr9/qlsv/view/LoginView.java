@@ -1,5 +1,6 @@
 package gr9.qlsv.view;
 
+import gr9.qlsv.controller.AccountController;
 import gr9.qlsv.controller.LoginController;
 
 import javax.swing.*;
@@ -11,9 +12,10 @@ import com.jgoodies.forms.factories.DefaultComponentFactory;
 
 public class LoginView extends JFrame {
     private LoginController loginController = new LoginController();
+    private AccountController accountcontroller = new AccountController();
 
     public LoginView() {
-    	setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\gr9_qlsv\\acess\\Icon-CTy-Tap-doan-Phuong-Hoan.png"));
+    	setIconImage(Toolkit.getDefaultToolkit().getImage("Icon-CTy-Tap-doan-Phuong-Hoan.png"));
         setTitle("Đăng nhập");
         setSize(387, 318);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -46,7 +48,7 @@ public class LoginView extends JFrame {
         panel.add(lblQunLSinh);
         
         JLabel lblNewJgoodiesLabel = DefaultComponentFactory.getInstance().createLabel("");
-        lblNewJgoodiesLabel.setIcon(new ImageIcon("D:\\gr9_qlsv\\acess\\download (2).jpg"));
+        lblNewJgoodiesLabel.setIcon(new ImageIcon("download (2).jpg"));
         lblNewJgoodiesLabel.setHorizontalAlignment(SwingConstants.CENTER);
         lblNewJgoodiesLabel.setBounds(0, 179, 371, 125);
         panel.add(lblNewJgoodiesLabel);
@@ -60,7 +62,14 @@ public class LoginView extends JFrame {
                     new StudentView();
                     dispose(); // Đóng cửa sổ đăng nhập
                 } else {
-                    JOptionPane.showMessageDialog(null, "Sai tài khoản hoặc mật khẩu");
+                	if (accountcontroller.authenticate(username, password))
+                	{
+                		new Dangkymonhoc(username);
+                		dispose();
+                	}
+                	else {
+                	JOptionPane.showMessageDialog(null, "Sai tài khoản hoặc mật khẩu");
+                	}
                 }
             }
         });
