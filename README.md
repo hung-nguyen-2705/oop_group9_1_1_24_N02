@@ -38,7 +38,7 @@ Chức năg xóa sinh viên
 <img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/db2660cc-aeb5-422d-8349-7cb13b399736">
 
 # Giao diện Quản lý sinh viên:
-<img width="350" height="300" alt="image" src="Quanlyview.png">
+<img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/282d10a9-43ba-4549-8bfe-5bba6d1be8f1">
 
 # Giao diện sinh viên đăng ký môn:
 <img width="350" height="300" alt="image" src="Dangkymonview.png">
