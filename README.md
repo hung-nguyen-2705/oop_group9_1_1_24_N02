@@ -15,7 +15,7 @@ Dự án này là một hệ thống giúp quản lý thông tin sinh sinh viên
 # Sơ đồ chức năng (Structural Diagram)
 
 
-![att CXkHJS_AkLTPjeOdFog8boKOKI0KvrCRmqUttx9hOzs](https://github.com/user-attachments/assets/e7de5224-b01d-4167-b56c-5e0b17938efa)
+![att CXkHJS_AkLTPjeOdFog8boKOKI0KvrCRmqUttx9hOzs](https://github.com/user-attachments/assets/f78b4c41-df0c-494d-b6e3-1ee7b7c8d9c0)
 
 
 
