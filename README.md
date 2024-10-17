@@ -4,8 +4,8 @@
 # Giới thiệu dự án
 Dự án này là một hệ thống giúp quản lý thông tin sinh sinh viên đối với đội ngũ quản lý đào tạo, đồng thời giúp sinh viên có thể đăng ký môn học.
 # Thành viên nhóm
--Bùi Văn Bằng:Phát triển phần mềm.<br>
--Nguyễn Xuân Nguyên Hưng: Phát triển phần mềm.<br>
+-Bùi Văn Bằng:Phát triển chức năng và giao diện cho chức năng đăng nhập của sinh viên, quản lý môn học.<br>
+-Nguyễn Xuân Nguyên Hưng: Phát triển chức năng và giao diện cho chức năng đăng nhập admin, quản lý sinh viên.<br>
 -Võ Hữu Thuận:Phát triển phần mềm.
 # Chức Năng chính
 -Thêm,sửa,xóa,tìm kiếm,sắp xếp Sinh viên<br>
