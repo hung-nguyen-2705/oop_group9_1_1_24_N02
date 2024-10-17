@@ -36,7 +36,7 @@ Chức năg xóa sinh viên
 
 # Giao diện Login đầu tiên của dự án:
 
-<img width="350" height="300" alt="image" src="Loginview.png">
+<img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/db2660cc-aeb5-422d-8349-7cb13b399736">
 
 # Giao diện Quản lý sinh viên:
 <img width="350" height="300" alt="image" src="Quanlyview.png">
