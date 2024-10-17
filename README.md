@@ -1,9 +1,17 @@
 
 # oop_group9_1_1_24_N02
-# Đặc tả hệ thống
-- Hệ thống quản lý sinh viên này chỉ dành cho một lớp người sử dụng (Phòng đào tạo) nên không thực hiện chức năng phân quyền.
-- Hệ thống thực hiện các chức năng Quản lý sinh viên, Tìm kiếm - Thống kê.
-
+# Hệ thống Quản lý và Đăng ký môn học cho sinh viên.
+# Giới thiệu dự án
+Dự án này là một hệ thống giúp quản lý thông tin sinh sinh viên đối với đội ngũ quản lý đào tạo, đồng thời giúp sinh viên có thể đăng ký môn học.
+# Thành viên nhóm
+-Bùi Văn Bằng:Phát triển phần mềm.<br>
+-Nguyễn Xuân Nguyên Hưng: Phát triển phần mềm.<br>
+-Võ Hữu Thuận:Phát triển phần mềm.
+# Chức Năng chính
+-Thêm,sửa,xóa,tìm kiếm,sắp xếp Sinh viên<br>
+-Đăng ký,Hủy môn học cho sinh viên<br>
+-Lưu thông tin Sinh viên vào File<br>
+-Lưu thông tin tình trạng môn học vào File
 
 # Sơ đồ chức năng (Structural Diagram)
 
@@ -13,7 +21,7 @@
 
 # Lưu đồ thuật toán (Behavioural Diagram)
 
-Chức năng thêm thông tinh sinh viên 
+Chức năng tìm kiếm thông tin sinh viên 
 
 ![themsinhvien](https://github.com/user-attachments/assets/d2bd1dd7-3d50-48fa-bfa4-9e0be1156c1e)
 
@@ -25,6 +33,12 @@ Chức năg xóa sinh viên
 
 ![image](https://github.com/user-attachments/assets/e410821b-ac63-4aab-bade-ad1ed0cc50c6)
 
-# Màn hình đầu tiên:
+# Giao diện Login đầu tiên của dự án:
 
-<img width="202" alt="image" src="https://github.com/user-attachments/assets/72d2a03c-96dc-484b-9cfb-a5b3e324b5c3">
+<img width="350" height="300" alt="image" src="Loginview.png">
+
+# Giao diện Quản lý sinh viên:
+<img width="350" height="300" alt="image" src="Quanlyview.png">
+
+# Giao diện sinh viên đăng ký môn:
+<img width="350" height="300" alt="image" src="Dangkymonview.png">
