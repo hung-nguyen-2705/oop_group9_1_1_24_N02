@@ -41,4 +41,4 @@ Chức năg xóa sinh viên
 <img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/282d10a9-43ba-4549-8bfe-5bba6d1be8f1">
 
 # Giao diện sinh viên đăng ký môn:
-<img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/c122ea6d-df84-4248-8bb1-a85ad011feb4">
+<img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/ca0cd570-f4dd-4045-84af-50a55791051f">
