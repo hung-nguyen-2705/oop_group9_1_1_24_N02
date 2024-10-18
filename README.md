@@ -42,3 +42,7 @@ Chức năg xóa sinh viên
 
 # Giao diện sinh viên đăng ký môn:
 <img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/ca0cd570-f4dd-4045-84af-50a55791051f">
+
+
+# Demo dự án
+https://www.youtube.com/watch?v=VNxHRilrsWI
